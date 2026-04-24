@@ -1,33 +1,68 @@
-id,nombre,icono
-karinista,Línea Karinista,karinista.jpg
-mileista,Línea Mileista,mileista.jpg
-caputista,Línea Caputista,caputista.jpg
-lilia_lemoine,Lilia Lemoine,lillia.jpg
-patricia_bullrich,Patricia Bullrich,bullrich.jpeg
-eliana,Eliana,eliana.jpg
-cande,Cande,cande.jpg
-lu_palavecino,Lu Palavecino,lu_palavecino.jpg
-mia_noparejista,Mia (no parejista),mia_noparejista.jpg
-johnny_ars,Johnny Ars,johnny_ars.jpg
-ivan_cerrajero,Iván Cerrajero,ivan_cerrajero.jpg
-natalin,Natalin,natalin.jpg
-pablo,Pablo,pablo.png
-gordo_dan,Gordo Dan,gordo_dan.jpg
-traductor,Traductor,traductor.jpg
-sanibu,Sanibu,sanibu.jpg
-barbie,Barbie,barbie.jpg
-mia,Mia,mia.jpg
-oraculo_tl,El Oráculo de TL,oraculo_tl.jpg
-marilu,Marilú,marilu.jpg
-marra,Marra,marra.jfif
-fede_machado,Fede Machado,fede_machado.jpg
-palandristas,Palandristas,palandristas.jpg
-tipito,Tipito,tipito.webp
-lopez_murphy,López Murphy,lopez_murphy.jpg
-cachanoski,Cachanoski,cachanoski.jpg
-giacomini,Giacomini,giacomini.jpg
-marianito,Marianito,marianito.jpg
-fijap,Fijap,fijap.jpg
-palazzo,Palazzo,palazzo.jpg
-nicolas_marquez,Nicolás Márquez,nicolas_marquez.jpg
-ozzi_barbie,Ozzi Barbie,ozzi_barbie.png
+tipo,id,nombre,icono,seccion,color,panel,panel_padre,es_lider,es_root,es_bridge,bridge_entre,orden
+panel,karinista,Línea Karinista,,top,blue,,,,,,,1
+panel,mileista,Línea Mileista Pura,,top,purple,,,,,,,2
+panel,caputista,Línea Caputista,,top,pink,,,,,,,3
+panel,limonista,Línea Limonista,,,yellow,,karinista,,,,,1
+panel,parejista,Línea Parejista,,,yellow,,karinista,,,,,2
+panel,bulrichista,Línea Bulrichista,,,yellow,,mileista,,,,,1
+panel,liberales,Liberales,,right,yellow,,,,,,,1
+panel,plp,PLP: Partido Libertario Pesimista,,right,gray,,,,,,,2
+panel,expulsados,Liberales Expulsados / Traidores?,,bottom,lavender,,,,,,,1
+panel,viudas,Viudas de Milei,,bottom,yellow,,,,,,,2
+panel,disca,Línea Disca,,bottom,red,,,,,,,3
+persona,mileista,Línea Mileista,mileista.jpg,,purple,mileista,,si,si,,,1
+persona,karinista,Línea Karinista,karinista.jpg,,blue,karinista,,si,,,,1
+persona,caputista,Línea Caputista,caputista.jpg,,pink,caputista,,si,,,,1
+persona,bumper,Bumper,bumperCrop.jpg,,purple,mileista,,,,,,2
+persona,negro_almeida,Negro Almeida,negroAlmeida.jpg,,purple,mileista,,,,,,3
+persona,toto_caputo,Toto Caputo,totoCaputo.jpg,,purple,mileista,,,,,,4
+persona,sandra_petovello,Sandra Petovello,sandraPetovello.png,,purple,mileista,,,,,,5
+persona,carlos_presti,Carlos Presti,carlosPresti.jpg,,purple,mileista,,,,,,6
+persona,guillermo_francos,Guillermo Francos,guillermoFrancos.jpg,,purple,mileista,,,,,,7
+persona,lilia_lemoine,Lilia Lemoine,lillia.jpg,,yellow,limonista,,si,,,,1
+persona,cande,Candela Vidal,candelaVidal.png,,yellow,limonista,,,,,,3
+persona,lu_palavecino,Lu Palavecino,lu_palavecino.jfif,,yellow,limonista,,,,,,4
+persona,Parejistas,Sebastian Pareja,sebastianPareja.png,,yellow,parejista,,si,,,,1
+persona,patricia_bullrich,Patricia Bullrich,bullrich.jpeg,,yellow,bulrichista,,si,,,,1
+persona,pablo,Pablo,pablo.png,,pink,caputista,,,,,,2
+persona,gordo_dan,Gordo Dan,gordoDan.webp,,pink,caputista,,,,,,3
+persona,kali_m,Kali M,kalinaAnn.jpg,,pink,caputista,,,,,,4
+persona,el_trompista,El Trumpista,elTrumpista.jpg,,pink,caputista,,,,,,5
+persona,sarubi,Sarubi,Sarubi.webp,,pink,caputista,,,,,,8
+persona,marilu,Marilú,marilu.jfif,,pink,caputista,,,,,,10
+persona,tipito,Tipito,tipito.webp,,yellow,liberales,,,,,,1
+persona,palandristas,Palandri,palandri.png,,yellow,liberales,,,,,,2
+persona,traductor,Traductor,traductor.jpg,,yellow,liberales,,,,,,3
+persona,juan_pablo,Juan Pablo,juanPVolpin.png,,yellow,liberales,,,,,,4
+persona,milton,Milton,milton.jfif,,gray,plp,,,,,,1
+persona,pregonero,Pregonero,pregonero.jpg,,gray,plp,,,,,,2
+persona,marra,Marra,marra.jfif,,lavender,expulsados,,,,,,1
+persona,mondino,Mondino,dianaMondino.jpg,,lavender,expulsados,,,,,,2
+persona,pagano,Pagano,marcelaPagano.png,,lavender,expulsados,,,,,,3
+persona,villaruel,Villaruel,victoriaVillarruel.jpg,,lavender,expulsados,,,,,,4
+persona,lopez_murphy,López Murphy,lopezmurphi.jfif,,yellow,viudas,,,,,,1
+persona,deperoncho,Deperoncho,deperoncho.png,,yellow,viudas,,,,,,2
+persona,danann,Danann,dannan.jpg,,yellow,viudas,,,,,,3
+persona,cachanoski,Cachanoski,cachanoski.png,,yellow,viudas,,,,,,4
+persona,el_presto,El Presto,elpresto.jfif,,yellow,viudas,,,,,,5
+persona,maslaton,Maslaton,maslaton.jfif,,yellow,viudas,,,,,,6
+persona,giacomini,Giacomini,diegoGiaco.jpg,,yellow,viudas,,,,,,7
+persona,zicarelli,Zicarelli,alvaroZicarelli.jpg,,yellow,viudas,,,,,,8
+persona,Mariano Perez,Marianito,marianoPerez.jfif,,red,caputista,,,,,,1
+persona,fijap,Fran Fijap,franFijap.png,,red,disca,,,,,,2
+persona,palazzo,Palazzo,marcoPalazzo.png,,red,disca,,,,,,3
+persona,ozzi_barbie,Ozzie,ozzie.png,,red,disca,,,,,,4
+persona,tronco,Tronco,tronco.png,,,mileista,,,,si,,1
+persona,nicolas_marquez,Nicolás Márquez,nicolasMarquez.png,,,disca,,,,si,,1
+persona,chad,Chad,chad.jpg,,,,,,,,,
+persona,sr_itati,Sr Itatí,sr_itati.jpg,,,,,,,,,
+persona,johnny_ars,Johnny Ars,johnny_ars.jpg,,,,,,,,,
+persona,luk,Luk,luk.jpg,,,,,,,,,
+persona,ivan_cerrajero,Iván Cerrajero,ivan_cerrajero.jpg,,,,,,,,,
+persona,alex_patzold,Alex Patzold,alex_patzold.jpg,,,,,,,,,
+persona,hyena,Hyena,hyena.jpg,,,,,,,,,
+persona,elsonyer,Elsonyer,elsonyer.jpg,,,,,,,,,
+persona,termobarica,Termobárica,termobarica.jpg,,,,,,,,,
+persona,che_libertarian,Che Libertarian,che_libertarian.jpg,,,,,,,,,
+persona,carolina_moine,Carolina Moine,carolina_moine.jpg,,,,,,,,,
+

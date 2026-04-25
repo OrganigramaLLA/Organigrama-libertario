@@ -2,8 +2,8 @@ tipo,id,nombre,icono,seccion,color,panel,panel_padre,es_lider,es_root,es_bridge,
 panel,karinista,Línea Karinista,,top,blue,,,,,,,1
 panel,mileista,Línea Mileista Pura,,top,purple,,,,,,,2
 panel,caputista,Línea Caputista,,top,pink,,,,,,,3
-panel,limonista,Línea Limonista,,,yellow,,karinista,,,,,1
-panel,parejista,Línea Parejista,,,yellow,,karinista,,,,,2
+panel,limonista,Línea Limonista,,,yellow,,karinista,,,,,2
+panel,parejista,Línea Parejista,,,yellow,,karinista,,,,,1
 panel,bulrichista,Línea Bulrichista,,,yellow,,mileista,,,,,1
 panel,liberales,Liberales,,right,yellow,,,,,,,1
 panel,plp,PLP: Partido Libertario Pesimista,,right,gray,,,,,,,2
@@ -13,12 +13,12 @@ panel,disca,Línea Disca,,bottom,red,,,,,,,3
 persona,mileista,Línea Mileista,mileista.jpg,,purple,mileista,,si,si,,,1
 persona,karinista,Línea Karinista,karinista.jpg,,blue,karinista,,si,,,,1
 persona,caputista,Línea Caputista,caputista.jpg,,pink,caputista,,si,,,,1
-persona,bumper,Bumper,bumperCrop.jpg,,purple,mileista,,,,,,2
-persona,negro_almeida,Negro Almeida,negroAlmeida.jpg,,purple,mileista,,,,,,3
-persona,toto_caputo,Toto Caputo,totoCaputo.jpg,,purple,mileista,,,,,,4
-persona,sandra_petovello,Sandra Petovello,sandraPetovello.png,,purple,mileista,,,,,,5
-persona,carlos_presti,Carlos Presti,carlosPresti.jpg,,purple,mileista,,,,,,6
-persona,guillermo_francos,Guillermo Francos,guillermoFrancos.png,,purple,mileista,,,,,,7
+persona,bumper,Bumper,bumperCrop.jpg,,purple,mileista,,,,,,7
+persona,negro_almeida,Negro Almeida,negroAlmeida.jpg,,purple,mileista,,,,si,karinista,7
+persona,toto_caputo,Toto Caputo,totoCaputo.jpg,,purple,mileista,,,,,,1
+persona,sandra_petovello,Sandra Petovello,sandraPetovello.png,,purple,mileista,,,,,,3
+persona,carlos_presti,Carlos Presti,carlosPresti.jpg,,purple,mileista,,,,,,2
+persona,guillermo_francos,Guillermo Francos,guillermoFrancos.png,,purple,mileista,,,,,,3
 persona,lilia_lemoine,Lilia Lemoine,lillia.jpg,,yellow,limonista,,si,,,,1
 persona,cande,Candela Vidal,candelaVidal.png,,yellow,limonista,,,,,,3
 persona,lu_palavecino,Lu Palavecino,lu_palavecino.jfif,,yellow,limonista,,,,,,4
@@ -52,7 +52,7 @@ persona,Mariano Perez,Marianito,marianoPerez.jfif,,red,caputista,,,,,,1
 persona,fijap,Fran Fijap,franFijap.png,,red,disca,,,,,,2
 persona,palazzo,Palazzo,marcoPalazzo.png,,red,disca,,,,,,3
 persona,ozzi_barbie,Ozzie,ozzie.png,,red,disca,,,,,,4
-persona,tronco,Tronco,tronco.png,,,mileista,,,,si,,1
+persona,tronco,Tronco,tronco.png,,,mileista,,,,si,,4
 persona,nicolas_marquez,Nicolás Márquez,nicolasMarquez.png,,,disca,,,,si,,1
 persona,chad,Chad,chad.jpg,,,,,,,,,
 persona,sr_itati,Sr Itatí,sr_itati.jpg,,,,,,,,,
